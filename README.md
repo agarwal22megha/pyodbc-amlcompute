@@ -16,7 +16,7 @@
     1. Create a new docker file (without any extension) using any editor: `vim Dockerfile`​
     1. Add the following code to your dockerfile to install odbc driver:​
     ```
-    From mcr.microsoft.com/azureml/base:latest
+    FROM mcr.microsoft.com/azureml/base:latest
     RUN apt-get update​
     RUN apt-get install locales​
     RUN locale-gen en_US.UTF-8​
