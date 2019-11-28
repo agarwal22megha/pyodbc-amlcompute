@@ -39,8 +39,7 @@
 1. *Add the image to Azure AMLS Container Registry:*
 
     1. Tag the image using the following command:
-
-    `docker tag <docker image name> <container login server>/<image name>
+    `docker tag <docker image name> <container login server>/<image name>`
 
     e.g. `docker tag mydockerimg mycontainerregistry.azurecr.io/myimg`
 
