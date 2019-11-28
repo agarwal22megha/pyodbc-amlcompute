@@ -51,7 +51,7 @@
 
     `docker push <container login server>/<image name>`
 
-    e.g `docker push mydockerimg mycontainerregistry.azurecr.io/myimg`
+    e.g `docker push mycontainerregistry.azurecr.io/myimg`
 
 
 Now the image can be used to create environment for your experiments! 😊
