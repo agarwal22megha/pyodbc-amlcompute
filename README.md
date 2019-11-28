@@ -51,7 +51,8 @@
 
     `docker push <container login server>/<image name>`
 
-    e.g `docker push mydockerimg mycontainerregistry.azurecr.io/ myimg
+    e.g `docker push mydockerimg mycontainerregistry.azurecr.io/myimg`
 
 
 Now the image can be used to create environment for your experiments! 😊
+[`execute_remote_AML_compute.ipynb`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/execute_remote_AML_compute.ipynb) shows how you can test your connection to SQLDW by submitting the connection python script [`connect_to_SQLDW_AADPassword.py`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/connect_to_SQLDW_AADPassword.py) to run against a AML compute
