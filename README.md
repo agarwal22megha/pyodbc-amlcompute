@@ -55,4 +55,5 @@
 
 
 Now the image can be used to create environment for your experiments! 😊
-[`execute_remote_AML_compute.ipynb`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/execute_remote_AML_compute.ipynb) shows how you can test your connection to SQLDW by submitting the connection python script [`connect_to_SQLDW_AADPassword.py`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/connect_to_SQLDW_AADPassword.py) to run against a AML compute
+
+[`execute_remote_AML_compute.ipynb`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/execute_remote_AML_compute.ipynb) shows how you can test your connection to SQLDW by submitting the connection python script [`connect_to_SQLDW_AADPassword.py`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/connect_to_SQLDW_AADPassword.py) (uses Active Directory Auth) or [`connect_to_SQLDW_SQLAuth.py`](https://github.com/agarwal22megha/pyodbc-amlcompute/blob/master/connect_to_SQLDW_SQLAuth.py) (uses SQL UID/ pwd) to run against a AML compute
